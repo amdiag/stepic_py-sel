@@ -18,8 +18,6 @@ calcValue = calc( imgElement.get_attribute("valuex") )
 input = browser.find_element_by_xpath(xpathInput)
 input.send_keys(calcValue)
 
-
-
 checkBox = browser.find_element_by_css_selector("[id='robotCheckbox']").click()
 radioButton = browser.find_element_by_css_selector("[id='robotsRule']").click()
 
