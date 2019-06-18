@@ -1,7 +1,7 @@
 from selenium import webdriver
 import time
 
-browser = webdriver.Chrome()                    # еявное ожидание, каждого элемента до 5 секунд
+browser = webdriver.Chrome()                    # неявное ожидание, каждого элемента до 5 секунд
 browser.implicitly_wait(5)
 browser.get("http://suninjuly.github.io/cats.html")
 
